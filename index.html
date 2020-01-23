@@ -14,13 +14,13 @@
     <div class="container">
         <header >
             <nav class="btn-header">
-                <a href=""><button><i class="fab fa-html5"></i> HTML</button></a>
-                <a href=""><button><i class="fab fa-css3"></i>CSS</button></a>
-                <a href=""><button><i class="fab fa-js"></i>JAVASCRIPT</button></a>
+                <button id="btn1" onClick="openHTML()"><i class="fab fa-html5"></i> HTML</button>
+                <button id="btn2" onClick="openCSS()"><i class="fab fa-css3"></i>CSS</button>
+                <button id="btn3" onClick="openJS()"><i class="fab fa-js"></i>JAVASCRIPT</button>
             </nav>
         </header>
 
-        <section class="first-container">
+        <section id = "html" class="first-container">
             <div class="content-left">
                 <h1>Learn HTML</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -32,6 +32,36 @@
             </div>
             <div class="content-right">
                 <img src="/images/html.jpg" alt="An html image">
+            </div>
+        </section>
+
+        <section id="css" class="first-container">
+            <div class="content-left">
+                <h1>Learn CSS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed nunc lorem, interdum vitae erat id, rutrum gravida ligula. Duis sagittis quis nibh eu iaculis.
+                     Fusce id enim vitae augue tempus tristique vitae aliquam eros. Vestibulum in elit libero. 
+                     In quis mollis nibh. In posuere velit quis metus condimentum auctor. 
+                    Proin facilisis euismod est, sit amet pulvinar elit tempus euismod.</p>
+                <a href="">Watch Video</a>
+            </div>
+            <div class="content-right">
+                <img src="/images/css.jpg" alt="A CSS image">
+            </div>
+        </section>
+
+        <section id="js" class="first-container">
+            <div class="content-left">
+                <h1>Learn JAVASCRIPT</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed nunc lorem, interdum vitae erat id, rutrum gravida ligula. Duis sagittis quis nibh eu iaculis.
+                     Fusce id enim vitae augue tempus tristique vitae aliquam eros. Vestibulum in elit libero. 
+                     In quis mollis nibh. In posuere velit quis metus condimentum auctor. 
+                    Proin facilisis euismod est, sit amet pulvinar elit tempus euismod.</p>
+                <a href="">Watch Video</a>
+            </div>
+            <div class="content-right">
+                <img src="/images/js.jpg" alt="A js image">
             </div>
         </section>
     </div>
